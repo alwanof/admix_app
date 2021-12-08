@@ -20,6 +20,6 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - name: Connect with Test project
+    - name: Connect with Test project1
       run: |
         curl -XPOST -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/alwannof/admix_test/dispatches --data '{"event_type": "build_application"}'
