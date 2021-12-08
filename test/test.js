@@ -4,4 +4,4 @@ describe('APP', function() {
         assert(true,'APP message has been received'); 
     });
 });
-//  - run: npm run build --if-present
+//  - run: npm run build --if-present , Jon Schlinkert.
