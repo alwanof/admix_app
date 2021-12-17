@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Build Web App
         run: |
-          echo "Build Web App"
+          echo "Build Web App1"
       - uses: convictional/trigger-workflow-and-wait@v1.5.0
         with:
           owner: alwanof
